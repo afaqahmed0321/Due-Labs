@@ -1,0 +1,140 @@
+
+@font-face {
+/* font-family: "Asap" !important; */
+src: url("../src/Assets/Deu_Labs_Logo_Final_Folder/Fonts/Asap-Bold.otf") !important;
+}
+
+body {
+/* font-family: "Asap" !important; */
+padding: 0px;
+}
+
+.App {
+text-align: center;
+}
+
+.App-logo {
+height: 40vmin;
+pointer-events: none;
+}
+
+.App-header {
+background-color: #282c34;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-size: calc(10px + 2vmin);
+color: white;
+}
+
+.text-24{
+font-size: 31px !important;
+}
+
+.text-25{
+font-size: 25px !important;
+}
+
+.text-42{
+font-size: 42px !important;
+}
+
+.text-60{
+font-size: 60px !important;
+}
+
+@media screen and (max-width: 768px) {
+.text-100{
+  font-size: 42px !important;
+}
+}
+
+@media screen and (min-width: 769px) {
+.text-100{
+  font-size: 100px !important;
+}
+}
+
+
+
+@media screen and (min-width: 360px) {
+.text-200{
+  font-size: 50px !important;
+}
+}
+
+@media screen and (min-width: 525px) {
+.text-200{
+  font-size: 80px !important;
+}
+}
+
+@media screen and (min-width: 1024px) {
+.text-200{
+  font-size: 120px !important;
+}
+}
+
+@media screen and (min-width: 1260px) {
+.text-200{
+  font-size: 200px !important;
+}
+}
+
+.custom-para-about{
+text-align: justify;
+text-justify: inter-word;
+margin-right: 200px !important;
+}
+
+.custom-line{
+line-height: 65px !important;
+}
+
+.custom-line-about-des{
+line-height: 80px !important;
+padding-left: 200px;
+padding-right: 200px;
+}
+
+.custom-line-about-para{
+line-height: 60px !important;
+/* padding-left: 200px; */
+text-align: justify;
+text-justify: inter-word;
+margin-right: 200px !important;
+}
+
+.navbar {
+background-color: black ;
+}
+
+.navbar.colorChange {
+background-color: white;
+}
+
+.custom-height{
+height: 75vh !important;
+}
+
+.hr {
+margin: 1rem 0;
+color: inherit;
+border: 0;
+border-top: var(--bs-border-width) solid;
+opacity: 1 !important;
+}
+
+.Typewriter__cursor{
+display: none;
+}
+
+hr {
+margin: 1rem 0;
+color: inherit;
+border: 0;
+border-top: var(--bs-border-width) solid;
+opacity: 1 !important;
+}

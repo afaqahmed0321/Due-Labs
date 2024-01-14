@@ -1,0 +1,21 @@
+.para-custom-sizing{
+    margin: 3%;
+}
+.Learn-More-button{
+    margin-right: 10px;
+    padding: 1% !important;  
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    color: white !important;
+    outline: none; /* Added to remove the blue outline */   
+}
+.Learn-More-button:hover  {
+    background-color: #ffffff !important;
+    color: #000000  !important;
+    border: 2px solid #000000  !important;
+  }
+.text-justify{
+    text-align: justify;
+}

@@ -1,0 +1,17 @@
+.paras{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 14rem;
+    padding-bottom: 12rem;
+}
+.para-1{
+    font-size: 6.875rem;
+    font-weight: 500;
+}
+.para-2{
+    font-size: 6.875rem;
+    line-height: 0.2;
+    font-weight: 500;
+}

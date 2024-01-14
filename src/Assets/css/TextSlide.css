@@ -1,0 +1,91 @@
+ * {
+	 box-sizing: border-box;
+	 padding: 0 !important;
+	 margin: 0;
+}
+
+ ol {
+	 list-style: none;
+	 /* counter-reset: days-counter; */
+	 font-size: 4rem;
+	 position: relative;
+	 background-color: black;
+	 /* background: url('../../Assets/images/land1.jpg') no-repeat center; */
+}
+/* increment the custom counter */
+ ol li {
+	color: white;
+	 /* counter-increment: days-counter; */
+	/* center the content in the viewport */
+	 height: 100vh;
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: flex-start;
+	 /* align-items: center; */
+	 text-shadow: 0 1px 5px rgba(0, 0, 0, 0.8) !important;
+	/* position relative to absolute position the pseudo element behind the text */
+	 z-index: 5;
+	 line-height: 1;
+}
+
+ ol li::selection {
+	 color: #fff;
+	 background: black;
+}
+
+ ol li {
+	 position: sticky;
+}
+/* ! have the list items occupy enough vertical space to cover (viewport - vertical offset) otherwise the elements would collapse to the top once the page reaches the last item */
+ ol li:nth-child(1) {
+	 top: 0vh;
+	 height: 100vh;
+}
+ ol li:nth-child(2) {
+	 top: 8.5vh;
+	 height: 92.5vh;
+}
+ ol li:nth-child(3) {
+	 top: 17vh;
+	 height: 85vh;
+}
+ ol li:nth-child(4) {
+	 top: 24.5vh;
+	 height: 77.5vh;
+}
+ ol li:nth-child(5) {
+	 top: 62vh;
+	 height: 70vh;
+}
+
+
+
+@media screen and (max-width: 711px) {
+	ol{
+		font-size: 3rem !important;
+	}
+}
+@media screen and (max-width: 533px) {
+	ol{
+		font-size: 2rem !important;
+	}
+}
+@media screen and (max-width: 700px) {
+	.text-24{
+		font-size: 22px !important;
+	}
+}
+@media screen and (max-width: 750px) {
+	.text-42{
+		font-size: 25px !important;
+	}
+	.custom-line{
+		line-height: 1 !important;
+	}
+	.mt-5{
+		margin-top: 0px !important;
+	}
+	.pt-5{
+		padding-top: 0px !important;
+	}
+}

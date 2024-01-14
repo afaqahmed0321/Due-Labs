@@ -1,0 +1,18 @@
+
+@font-face {
+    /* font-family: "Asap" !important; */
+    src: url("../Deu_Labs_Logo_Final_Folder/Fonts/Asap-Bold.otf") !important;
+  }
+
+.HomePara-custom-sizing{
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+    height: 50vh;
+    justify-content:first baseline !important;
+    align-items: center;
+    
+}
+.text-justify{
+  text-align: justify !important;
+}

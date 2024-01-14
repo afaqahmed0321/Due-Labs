@@ -1,0 +1,18 @@
+.Download-button{
+    background-color: transparent !important;
+    padding-left: 2% !important;
+    padding-right: 2% !important;
+    margin-left: 5% ;
+    margin-top: 20% ;
+    border-color: white !important;
+    border-radius: 50px !important;
+}
+.Download-button:hover{
+    background-color: #ffffff !important;
+    color: #000000  !important;
+    border: 1px solid #000000  !important;
+}
+.custom-text{
+    margin-bottom: 20% ;
+    margin-left: 5%;
+}
